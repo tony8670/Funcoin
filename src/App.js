@@ -1,4 +1,5 @@
 import './App.css';
+import main from './main.jpg'
 
 function App() {
     return (
@@ -35,7 +36,7 @@ function App() {
                         </div>
                     </div>
                     <div className="back">
-                        <img src="https://png.clipart.me/image_preview/9b6/neon-light-girl-vector-27490.jpg" alt=""/>
+                        <img src={main} alt=""/>
                     </div>
                 </main>
             </div>
